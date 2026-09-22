@@ -14,13 +14,13 @@ class Solution:
         count = 0
 
         while idx1 < len(nums1) and idx2 < len(nums2):
-            if nums1[idx1] < nums2[idx2]:
+            if nums1[idx1] < nums2[idx2] and idx1 < len(nums1):
                 nums[count] = nums1[idx1]
                 idx1+=1
-            elif nums2[idx2] < nums1[idx1]:
+            elif nums2[idx2] < nums1[idx1] and idx2 < len(nums2):
                 nums[count] = nums2[idx2]
                 idx2+=1
-            else:
+            elif nums1[idx1] == nums2[idx2]:
                 nums[count] = nums1[idx1]
                 idx1+=1
                 count+=1
