@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Python3  
-**Runtime:** 19 ms  
-**Memory:** 21 MB  
+**Runtime:** 12 ms  
+**Memory:** 21.1 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 ## Problem Description
