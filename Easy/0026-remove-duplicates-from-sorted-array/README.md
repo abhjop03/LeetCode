@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy  
 **Language:** Python3  
-**Runtime:** 0 ms  
+**Runtime:** 4 ms  
 **Memory:** 20.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
